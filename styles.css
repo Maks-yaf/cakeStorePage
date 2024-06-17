@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-img {
+    position: relative;
+    padding: 1px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: #eee;
+
+}
+
+ul {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    background-color: #651a4c;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+#form {
+    display: grid;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+}
+
+.icons {
+    color: #651a4c;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 120px;
+    width: 20vw;
+    padding-right: 10px;
+}
+
+
+.discription-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 80vw;
+    padding: 2px;
+}
+
+h3, p {
+    margin: 2px;
+}
+
+h1, h2 {
+    margin: 2px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 0.75rem
+}
+
+#how-we-cook {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+#pricing {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 2px solid #651a4c;
+    border-radius: 5px;
+}
+
+.product>h1 {
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.product>h2 {
+    font-size: 1.7rem;
+    margin: 10px;
+}
+
+footer > ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f1 {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    background-color: #651a4c;
+    color: #fff;
+}
+
+#how-we-cook > iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    #header-img {
+        position: relative;
+        margin-top: 25px;
+        padding: 1px;
+        height: 200px;
+    }
+}
